@@ -1,4 +1,4 @@
-module github.com/nelsonlai-go/password
+module github.com/go-ginseng/password
 
 go 1.19
 

@@ -1,7 +1,7 @@
 package password_test
 
 import (
-	"github.com/nelsonlai-go/password"
+	"github.com/go-ginseng/password"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

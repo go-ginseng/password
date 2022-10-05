@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-go get github.com/nelsonlai-go/password
+go get github.com/go-ginseng/password
 ```
 
 ## Hash Password
@@ -11,7 +11,7 @@ go get github.com/nelsonlai-go/password
 ### hash password
 
 ```go
-// import "github.com/nelsonlai-go/password"
+// import "github.com/go-ginseng/password"
 
 h := password.Hash("password")
 ```
@@ -19,7 +19,7 @@ h := password.Hash("password")
 ### verify password
 
 ```go
-// import "github.com/nelsonlai-go/password"
+// import "github.com/go-ginseng/password"
 
 h := password.Hash("password")
 ok := password.Verify("password", h)
